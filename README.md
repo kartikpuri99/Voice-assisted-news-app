@@ -2,9 +2,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About the app
 It is a news app which provides latest Indian news using Alan voice assistant.The commands to talk to Alan are described in the site only.
-## To run the app
-1. Run `yarn add` or `npm install`
-2. Run `yarn start` to run the app in development mode.
+
+# Tech Stack
+
+* ReactJS
+* React Native
+* Firebase
+
+# How to run the file
+1. clone the github repo on your local desktop.
+2. Run `yarn i` in the root folder.
+3. In the root folder create a file named `keys.js` and add the following code:
+```javascript
+export const API_KEY="//Your API KEY OF ALAN VOICE ASSISTANT"
+```
+5. Now open the terminal in root folder and run `yarn start` to start the app on your android emulator aur your mobile phone.
+
+
+
+
 
 ## Available Scripts
 
