@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About the app
+It is a news app which provides latest Indian news using Alan voice assistant.The commands to talk to Alan are described in the site only.
+## To run the app
+1. Run `yarn add` or `npm install`
+2. Run `yarn start` to run the app in development mode.
+
 ## Available Scripts
 
 In the project directory, you can run:
