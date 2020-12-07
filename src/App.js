@@ -3,9 +3,9 @@ import { wordsToNumbers } from "words-to-numbers";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import NewsCards from "./components/NewsCards.js/NewsCards";
 import useStyles from "./styles";
+import { API_KEY } from "./keys";
 
-const alanKey =
-  "d2ab6a0d695f8a73a1f230ff2fa18d6d2e956eca572e1d8b807a3e2338fdd0dc/stage";
+const alanKey = API_KEY;
 
 const App = () => {
   const [newsArticles, setNewsArticles] = useState([]);
@@ -30,7 +30,7 @@ const App = () => {
             alanBtn().playText("Please try that again.");
           } else if (article) {
             window.open(article.url, "_blank");
-            alanBtn().playText('Opening....')
+            alanBtn().playText("Opening....");
           }
         }
       },
