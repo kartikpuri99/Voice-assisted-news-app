@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## About the app
 It is a news app which provides latest Indian news using Alan voice assistant.The commands to talk to Alan are described in the site only.
 
